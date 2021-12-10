@@ -1,0 +1,19 @@
+.test{
+    background-image:url("../../../public/icones/encadrement-en-haut-à-gauche.svg"),url("../../../public/icones/encadrement-en-bas-à-droite.svg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    padding: 20px;
+}
+
+.Footer__grand{
+    position:absolute;
+    z-index: -1;
+}
+
+
+
+.Footer_petit{
+    position: absolute;
+    z-index: -1;
+}
+

@@ -1,0 +1,19 @@
+.Logo_MMI{
+    position: relative;
+    height: 92px;
+    width: 78.69584655761719px;
+    left: 149px;
+    top: 23px;
+    border-radius: 0px;
+
+}
+
+.text_footer{
+    position: relative;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
