@@ -1,10 +1,12 @@
 .Logo_MMI{
     position: relative;
-    height: 92px;
-    width: 78.69584655761719px;
-    left: 149px;
-    top: 23px;
-    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    height: 5.75rem;                                  /* 92px */
+    width: 4.918rem;                                  /*78.69584655761719px*/
+    left:9.313rem;                                    /*149px*/
+    top:1.438rem;                                             /*23px*/                                        
+    border-radius: 0rem;
 
 }
 

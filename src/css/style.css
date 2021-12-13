@@ -5,6 +5,9 @@
 @import url('base/media.css');
 @import url('base/main.css');
 
+/*components*/
+@import url('components/menu.css');
+
 /*layout*/
 @import url('layout/header.css');
 @import url('layout/footer.css');
