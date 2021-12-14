@@ -1,0 +1,22 @@
+:root {
+  /* Polices de caractère */
+  --font-playfairdisplay-sc:'Playfair Display SC', bold;
+  --font-montserrat:'Montserrat', italic;
+
+
+  /* Color styles */
+  --duo-tones: rgba(0, 0, 0, 1);
+  --noir-typo: rgba(41, 38, 38, 1);
+  --blanc-neige: rgba(255, 250, 250, 1);
+  --rouge-tonique: rgba(220, 100, 114, 1);
+  --bleu-foncé: rgba(6, 45, 98, 1);
+  --bleu-clair: rgba(147, 180, 225, 1);
+  --bleu-très-clair: rgba(185, 215, 234, 1);
+
+  /* Text-size styles */
+  --body-m: 12px;
+  --date: 20.291261672973633px;
+  --texte-article: 14px;
+
+ }
+

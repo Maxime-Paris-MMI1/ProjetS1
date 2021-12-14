@@ -1,21 +1,33 @@
+/*.Footer__grand{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+} */
+
 .Logo_MMI{
     position: relative;
-    display: flex;
-    justify-content: center;
-    height: 5.75rem;                                  /* 92px */
-    width: 4.918rem;                                  /*78.69584655761719px*/
-    left:9.313rem;                                    /*149px*/
-    top:1.438rem;                                             /*23px*/                                        
-    border-radius: 0rem;
-
+    height: 5.60rem;
+    width: 4.918rem;
+    left:9.313rem;
 }
 
 .text_footer{
     position: relative;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 18px;
-    letter-spacing: 0.02em;
-    text-align: left;
+    justify-content: flex-end;
+    font-family: var(--font-montserrat);
+    color: var(--blanc-neige);
+    padding: 22px; 
+} 
+
+
+.Footer{
+    background-color: var(--bleu-foncé);
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+#arc{
+    margin-bottom: -7px;
 }
