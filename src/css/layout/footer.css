@@ -1,8 +1,4 @@
-/*.Footer__grand{
-    position: absolute;
-    display: flex;
-    justify-content: flex-end;
-} */
+
 
 .Logo_MMI{
     position: relative;
@@ -16,7 +12,7 @@
     justify-content: flex-end;
     font-family: var(--font-montserrat);
     color: var(--blanc-neige);
-    padding: 22px; 
+    padding-left: 22px; 
 } 
 
 
@@ -30,4 +26,5 @@
 
 #arc{
     margin-bottom: -7px;
+    width: 100%;
 }

@@ -1,24 +1,24 @@
-.Header{
-    position: absolute;   
+.Header{ 
+    background-color: var(--bleu-foncé);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
 }
 
-.header_vecteur{}
- 
 
-
-.logo_header{
-    position: relative;
-    width: 209,46px;
-    height: 80px;
-    top: 44px;
-    left: 33px;
+#Logo_h{
+    margin-left: 33px;
+    margin-top: 25px;
 
 }
 
-.menu_header{
-    position: relative;
-    width: 78,2px;
-    height: 28px;
-    left: 271px;
-    top: -15px; 
+#M_H {
+   margin-right: 27.8px;
+   margin-top: 40px;
+}
+
+#VEC{
+    margin-top: -0.9px;
+    width: 100%;
+    z-index: -4;
 }

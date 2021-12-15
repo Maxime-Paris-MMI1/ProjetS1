@@ -6,17 +6,4 @@
     margin: 10px;
 }
 
-.Footer__grand{
-    position:absolute;
-    z-index: -1;
-}
 
-
-
-.Footer_petit{
-    position: absolute;
-    z-index: -1;
-}
-*{
-    box-sizing: border-box;
-}
