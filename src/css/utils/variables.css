@@ -1,11 +1,10 @@
 :root {
   /* Polices de caractère */
-  --font-playfairdisplay-sc:'Playfair Display SC', bold;
-  --font-montserrat:'Montserrat', italic;
+  --font-playfairdisplay-sc:'Playfair Display SC';
+  --font-montserrat:'Montserrat';
 
 
   /* Color styles */
-  --duo-tones: rgba(0, 0, 0, 1);
   --noir-typo: rgba(41, 38, 38, 1);
   --blanc-neige: rgba(255, 250, 250, 1);
   --rouge-tonique: rgba(220, 100, 114, 1);
