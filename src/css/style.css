@@ -10,6 +10,7 @@
 
 /*components*/
 @import url('components/menu.css');
+@import url('components/hero.css');
 
 /*layout*/
 @import url('layout/header.css');

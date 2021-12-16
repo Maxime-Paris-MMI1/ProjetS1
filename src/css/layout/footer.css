@@ -1,20 +1,5 @@
 
-
-.Logo_MMI{
-    position: relative;
-    height: 5.60rem;
-    width: 4.918rem;
-    left:9.313rem;
-}
-
-.text_footer{
-    position: relative;
-    justify-content: flex-end;
-    font-family: var(--font-montserrat);
-    color: var(--blanc-neige);
-    padding-left: 22px; 
-} 
-
+/*Footer grand (toutes les pages sauf: contact et à propos) */
 
 .Footer{
     background-color: var(--bleu-foncé);
@@ -24,7 +9,34 @@
 
 }
 
+.Logo_MMI{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+    /*position: relative;
+    height: 5.60rem;
+    width: 4.918rem;
+    left:9.313rem;*/
+}
+
+.text_footer{
+    position: relative;
+    font-family: var(--font-montserrat);
+    color: var(--blanc-neige);
+    padding-left: 22px; 
+} 
+
+
+
+
 #arc{
+    margin-bottom: -7px;
+    width: 100%;
+}
+
+/*Footer petit: contact et à propos*/
+
+.petit_footer{
     margin-bottom: -7px;
     width: 100%;
 }

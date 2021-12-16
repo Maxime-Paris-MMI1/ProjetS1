@@ -1,4 +1,8 @@
-
+.Menu__header{
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+}
 
 /* Pour l'instant on cache le menu 
 .Menu__header {
