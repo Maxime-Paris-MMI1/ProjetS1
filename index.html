@@ -9,25 +9,27 @@
   <link rel="icon" type="Image/svg" sizes="50x50" href="public/icones/fusée_menu.svg">
   <title>Féminiscience</title>
   <link rel="stylesheet" href="src/css/style.css">
+  <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
 
-<body>
+<body>  <!-- x-data="{ atTop: true }" -->
 
   <header>
     <div class="Header">
       <a href="/">
         <img  id="Logo_h" src="public/icones/logo.svg" alt="logo du site Féminiscience">
       </a>
-      <img  id="M_H" src="public/icones/menu.svg" alt="menu">
+      <img id="M_H" src="public/icones/menu.svg" alt="menu"> 
+      <!-- class= "header__menu-btn menu-btn" @click="menuIsOpen = !menuIsOpen" :class="menuIsOpen && 'menu-btn--open'"  -->
     </div>
-    <nav class="Menu__header">
-      <ul class="Menu__list">
-        <li class="Menu__item"><a href="article1.html">Les avancées du féminisme dans la science</a></li>
-        <li class="Menu__item"><a href="article2.html">Claudie Haigneré: astronaute et féministe, une femme à multiples vies</a></li>
-        <li class="Menu__item"><a href="article3.html">Les figures de l’ombre, ces femmes noires talentueuses à la NASA</a></li>
-        <li class="Menu__item"><a href="glossaire.html">Glossaire</a></li>
-        <li class="Menu__item"><a href="galerie.html">Galerie</a></li>
-        <li class="Menu__item"><a class="menu__link" href="#">English</a></li>
+    <nav class="menu__header" > <!-- :class="menuIsOpen && 'menu--open'"  -->
+      <ul class="menu__list">
+        <li class="menu__item"><a class="menu__link" href="article1.html">Les avancées du féminisme dans la science</a></li>
+        <li class="menu__item"><a class="menu__link" href="article2.html">Claudie Haigneré: astronaute et féministe, une femme à multiples vies</a></li>
+        <li class="menu__item"><a class="menu__link" href="article3.html">Les figures de l’ombre, ces femmes noires talentueuses à la NASA</a></li>
+        <li class="menu__item"><a class="menu__link" href="glossaire.html">Glossaire</a></li>
+        <li class="menu__item"><a class="menu__link" href="galerie.html">Galerie</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">English</a></li>
       </ul>
     </nav>
     <img class="Header_vecteur" id="VEC" src="public/icones/vecteur_fin_header.svg" alt="header">
@@ -88,7 +90,7 @@
     </div>
     <p class="text_fin__footer" >
       Projet réalisé dans le cadre d’un exercice pédagogique au département <a class="text_fin__footer__lien" href="http://mmimontbeliard.com/">MMI de
-      Montbéliard</a>
+      Montbéliard</a> 
     </p>
   </footer>
 

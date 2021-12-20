@@ -6,6 +6,15 @@
     width: 100%;
 }
 
+/*Footer petit: contact et à propos*/
+
+.petit_footer{
+    margin-bottom: -7px;
+    width: 100%;
+}
+
+/* propriétés CSS commun entre les 2 footer*/
+
 .Footer{
     background-color: var(--bleu-foncé);
     margin-bottom: -14px;
@@ -46,7 +55,8 @@
 
 .block2_footer{
     text-align: left;
-    margin-left: 22px ;
+    margin-left: 22px;
+    margin-bottom: 30px;
 }
 
 .block2_footer__text{
@@ -58,6 +68,7 @@
     letter-spacing: 0.1em;
     text-align: left;
     color: var(--blanc-neige);
+    
 }
 
 .block2_footer__bouton{
@@ -73,11 +84,13 @@
     background-image: url(../../../public/icones/grand_rectangle_footer.svg);
     background-repeat: no-repeat;
     padding: 5px;
+    padding-left: 2px;
 }
 
 .block3_footer{
     text-align: left;
     margin-left: 22px ;
+    margin-bottom: 30px;
 }
 
 .block3_footer__text{
@@ -103,6 +116,7 @@
     background-image: url(../../../public/icones/petit_rectangle_footer.svg);
     background-repeat: no-repeat;
     padding: 7px;
+    padding-left: 7px;
 }
 
 .text_fin__footer{
@@ -120,9 +134,4 @@
     color: var(--blanc-neige);
 }
 
-/*Footer petit: contact et à propos*/
 
-.petit_footer{
-    margin-bottom: -7px;
-    width: 100%;
-}
