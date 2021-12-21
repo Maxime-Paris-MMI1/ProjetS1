@@ -147,3 +147,37 @@
     letter-spacing: 0em;
     color: var(--blanc-neige);
 }
+
+/* Page autres projets */
+
+.text__autre__projets{
+    color: var(--noir-typo);
+    font-family: var(--font-montserrat);
+    margin-left: 17px;
+}
+
+.text_long{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.text_court{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.image_autre_projets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 49px;
+    margin-bottom: 73px;
+    margin-top: 73px;
+}
