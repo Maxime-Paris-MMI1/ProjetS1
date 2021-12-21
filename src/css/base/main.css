@@ -93,3 +93,57 @@
     color: var(--noir-typo);
 }
 
+/* Page contact */
+
+.text__contact{
+    font-family: var(--font-montserrat);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-left: 24px;
+    margin-right: 21px;
+    margin-top: 43px;
+}
+
+.text__formulaire{
+    margin-left: 36px;
+    font-family: var(--font-playfairdisplay-sc);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--noir-typo);
+}
+
+.rectangle__formulaire{
+    border-radius: 14px;
+    background: var(--bleu-très-clair);
+    border: none;
+    margin-left: 17px;
+    height: 41px;
+    width: 90%;
+}
+
+#dernier__rectangle{
+    height: 235px;
+}
+
+#send{
+    background-image: url(../../../public/icones/rectangle_envoyer.svg);
+    background-position: center;
+    padding: 10px;
+    padding-bottom: 14px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: var(--font-playfairdisplay-sc);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    color: var(--blanc-neige);
+}
