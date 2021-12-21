@@ -65,5 +65,31 @@
     margin-bottom: 86px;
 }
 
+/* page à propos */
 
+.text_a_propos{
+
+}
+
+.titre_a_propos{
+    font-family: var(--font-playfairdisplay-sc); 
+    color: var(--bleu-clair);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+
+.paragraphe_a_propos{
+    font-family: var(--font-montserrat);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-left: 31px;
+    margin-right: 35px;
+    color: var(--noir-typo);
+}
 

@@ -18,3 +18,15 @@
     min-width:60%;
     min-height:60%; 
 }
+
+
+/*page à propos*/
+
+.logo_ig{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width:10%;
+    min-height:10%;
+    margin-bottom: 57px;
+}
