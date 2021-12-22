@@ -67,10 +67,6 @@
 
 /* page à propos */
 
-.text_a_propos{
-
-}
-
 .titre_a_propos{
     font-family: var(--font-playfairdisplay-sc); 
     color: var(--bleu-clair);
