@@ -181,3 +181,113 @@
     margin-bottom: 73px;
     margin-top: 73px;
 }
+
+/* Page premier article */
+
+.titre__principal__article{
+    font-family: var(--font-playfairdisplay-sc);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--noir-typo);
+    margin-right: 13px;
+    margin-left: 15px;
+    margin-top: 21px;
+}
+
+.première__image__article{
+    float: left;
+    width: 168px;
+    display: block;
+    margin-left: auto;
+    margin-right: 14px;
+    min-width:30%;
+    min-height:30%;
+    
+}
+
+#premier__text__article{
+    font-family: var(--font-montserrat);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-left: 21px;
+    color: var(--noir-typo);
+}
+
+
+.text__article {
+
+    font-family: var(--font-montserrat);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: var(--noir-typo);
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+.sous__titre_article{
+    font-family: var(--font-playfairdisplay-sc);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    margin-left: 21px;
+}
+
+.image__article{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width:50%;
+    min-height:50%;
+
+}
+
+.frise__feminisme{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width:60%;
+    min-height:60%;
+
+}
+
+.titre__fin__article{
+
+}
+
+.premier__lien{
+
+}
+
+.premiere__suggestion{
+
+}
+
+.second__lien{
+
+}
+
+.seconde__suggestion{
+
+}
+
+.bouton__autres__projets{
+
+}
+
+.vecteur__fin{
+    width: 100%;
+    margin-bottom: -70px;
+
+}
