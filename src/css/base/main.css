@@ -258,32 +258,88 @@
 
 }
 
-.titre__fin__article{
+.vecteur__fin__article{
+    width: 100%;
+    margin-bottom: -31px;
+}
 
+.fin__article{
+    background-color: var(--bleu-clair);
+    padding-bottom: 180px;
+    margin-bottom: -25px;
+    
+}
+
+.titre__fin__article{
+    font-family: var(--font-montserrat);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-left: 11px;
+    color: var(--noir-typo);
+    padding-bottom: 20px;
 }
 
 .premier__lien{
-
+    display: flex;
+    margin-left: 5px;
+    margin-right: auto;
+    min-width:50%;
+    min-height:50%;
+    float: left;
+    margin-top: -20px;
 }
 
 .premiere__suggestion{
-
+    font-family: var(--font-montserrat);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    text-align: right;
+    color: var(--noir-typo);
+    padding-right: 8px;
+    padding-bottom: 100px;
 }
 
 .second__lien{
+    display: flex;
+    justify-content: end;
+    margin-right: 6px;
+    float: right;
 
 }
 
 .seconde__suggestion{
+    font-family: var(--font-montserrat);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--noir-typo);
+    margin-left: 18px;
+    padding-bottom: 70px;
 
 }
 
 .bouton__autres__projets{
-
-}
-
-.vecteur__fin{
-    width: 100%;
-    margin-bottom: -70px;
-
+    text-decoration: none;
+    color: var(--blanc-neige);
+    font-family: var(--font-montserrat);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    display: flex;
+    justify-content: center;
+    background-image: url(../../../public/icones/bouton_autre_projet.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -50px;
 }

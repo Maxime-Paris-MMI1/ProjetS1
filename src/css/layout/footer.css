@@ -4,6 +4,7 @@
 #arc{
     margin-bottom: -7px;
     width: 100%;
+    margin-top: -180px;
 }
 
 /*Footer petit: contact et à propos*/
@@ -18,6 +19,8 @@
 .Footer{
     background-color: var(--bleu-foncé);
     margin-bottom: -14px;
+    padding-top: -120px;
+    padding-bottom: 29px;
 }
 
 .Logo_MMI{
