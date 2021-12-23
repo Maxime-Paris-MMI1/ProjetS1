@@ -1,8 +1,11 @@
-.Header{ 
+
+
+.logo__menu{
     background-color: var(--bleu-foncé);
     display: flex;
     flex-direction: row;
     justify-content:space-between;
+    padding-right: 29.5px;
 }
 
 

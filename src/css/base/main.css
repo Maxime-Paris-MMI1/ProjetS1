@@ -230,6 +230,11 @@
     margin-right: 21px;
 }
 
+.lien__glossaire{
+    text-decoration: none;
+
+}
+
 .sous__titre_article{
     font-family: var(--font-playfairdisplay-sc);
     font-size: 15px;
@@ -255,6 +260,7 @@
     margin-right: auto;
     min-width:60%;
     min-height:60%;
+    
 
 }
 
