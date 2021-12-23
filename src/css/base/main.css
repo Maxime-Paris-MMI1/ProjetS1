@@ -258,6 +258,10 @@
 
 }
 
+#derniere__image{
+    padding-bottom: 64px;
+}
+
 .vecteur__fin__article{
     width: 100%;
     margin-bottom: -31px;
@@ -280,6 +284,9 @@
     margin-left: 11px;
     color: var(--noir-typo);
     padding-bottom: 20px;
+    background-image: url(../../../public/icones/soulignement_titre_fin_article.svg); 
+    background-position-y: center;
+    background-repeat: no-repeat;
 }
 
 .premier__lien{
