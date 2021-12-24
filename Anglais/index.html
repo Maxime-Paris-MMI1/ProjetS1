@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{ menuIsOpen: false }" :class="menuIsOpen && 'noscroll'">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Féminiscience">
+    <link rel="icon" type="Image/svg" sizes="50x50" href="public/icones/fusée_menu.svg">
+    <title>Féminiscience</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+</head>
+<body cz-shortcut-listen="true" x-data="{ atTop: true }">  <!-- x-data="{ atTop: true }" -->
+
+    <header class="header" 
+            @scroll.window="atTop = ( window.scrollY > 100 ? false : true )"
+            :class="{ 'header--atTop' : !atTop }">
+      <div class="logo__menu">
+      <div class="Header">
+        <a href="/">
+          <img id="Logo_h" src="public/icones/logo.svg" alt="logo du site Féminiscience">
+        </a>
+        <!--<img id="M_H" src="public/icones/menu.svg" alt="menu">-->
+        <!-- class= "header__menu-btn menu-btn" @click="menuIsOpen = !menuIsOpen" :class="menuIsOpen && 'menu-btn--open'"  -->
+      </div>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+                @click="menuIsOpen = !menuIsOpen" 
+                :class="menuIsOpen && 'menu-btn--open'">
+            <span class="menu-btn__bar"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+          <ul class="menu__list list-unstyled">
+            <li class="menu__item">
+              <a class="menu__link" href="article1.html">Les avancées du féminisme dans la science</a></li>
+            <li class="menu__item">
+              <a class="menu__link" href="article2.html">Claudie Haigneré: astronaute et féministe, une femme à multiples vies</a></li>
+            <li class="menu__item">
+              <a class="menu__link" href="article3.html">Les figures de l’ombre, ces femmes noires talentueuses à la NASA</a></li>
+            <li class="menu__item">
+              <a class="menu__link" href="glossaire.html">Glossaire</a></li>
+            <li class="menu__item">
+              <a class="menu__link" href="galerie.html">Galerie</a></li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">English</a></li>
+        </ul>
+      </nav>
+      </div>
+    <img class="Header_vecteur" id="VEC" src="public/icones/vecteur_fin_header.svg" alt="header">
+  </header>
+  <main>
+    <h1 class="tag_line">Quand l’égalité <br> rime avec disparité </h1>
+    <section>
+      <h2 class="intro__titre">Bienvenue sur Féminiscience !</h2>
+      <p class="intro">Ici vous trouverez plusieurs articles en rapport avec le féminisme sur le sujet de la science.</p>
+      <p class="intro">Bonne visite sur notre site !</p>
+      <div class="visuel_film">
+        <img src="public/images/affiche_film.webp" alt="visuel du film">
+      </div>
+    </section>
+    <section>
+      <a href="article1.html"><img class="block" src="public/icones/block__1.svg" alt="planète premier article avec une illustration d'une femme et des molécules "></a>
+      <p class="présentation__article" id="A1">
+        «les femmes sont socialement et mentalement
+        inférieures aux hommes» découvrez les évolutions de la vision de la femme dans la science.
+      </p>
+    </section>
+    <section>
+      <a href="article2.html"><img class="block" src="public/icones/block__2.jpg" alt="planète second article représentant Claudie Haigneré en habit d'astronaute"></a>
+      <p class="présentation__article" id="A2">
+        Savez-vous que Claudie Haigneré est la première et la seule femme française à partir dans l’espace ?
+        Découvrez son histoire ainsi que son combat pour l’égalité
+      </p>
+    </section>
+
+    <section>
+      <a href="article3.html"><img class="block" src="public/icones/Block__3.svg" alt="planète troisième article représentant l'affiche du film les figures de l'ombre"></a>
+      <p class="présentation__article" id="A3">
+        Les figures de l’ombre, un film présentant une histoire vraie de trois femmes noires qui essaient de se faire
+        une place à la NASA malgré les discriminations.
+      </p>
+    </section>
+    <img id="arc" src="public/icones/vecteur_fin_footer.svg" alt="vecteur">
+  </main>
+  <footer class="Footer">
+    <img class="Logo_MMI" src="public/icones/logo_mmi.svg" alt="logo du département métier du multimédia et de l'internet situé à Montbéliard">
+    <div class="block1_footer">
+      <p class="block1_footer__text">
+        Maxime Paris MMI1 A2
+      </p>
+      <a class="block1_footer__mail" href="mailto:maxime.paris02@edu.univ-fcomte.fr"><img src="public/icones/mailto_footer.svg" alt="bouton mail"></a>
+    </div>
+    <div class="block2_footer">
+      <p class="block2_footer__text">
+        Besoin d’éventuels renseignements ?
+      </p>
+      <a class="block2_footer__bouton" href="contact.html">Contactez-nous</a>
+    </div>
+    <div class="block3_footer">
+      <p class="block3_footer__text">
+        Vous voulez en savoir plus ?
+      </p> 
+      <a class="block3_footer__bouton"  href="à_propos.html">À propos</a>
+    </div>
+    <p class="text_fin__footer" >
+      Projet réalisé dans le cadre d’un exercice pédagogique au département <a class="text_fin__footer__lien" href="http://mmimontbeliard.com/">MMI de
+      Montbéliard</a> 
+    </p>
+  </footer>
+
+
+</body>
+</html>
