@@ -381,6 +381,21 @@
     padding-bottom: 11px;
 }
 
+.liste__glossaire{
+    text-decoration: none;
+    font-family: var(--font-playfairdisplay-sc);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--noir-typo);
+    font-variant: small-caps;
+    column-count: 2;
+    column-gap: 1em;
+
+}
+
 .titre__def{
     font-family: var(--font-playfairdisplay-sc);
     font-size: 23px;
@@ -395,9 +410,6 @@
 }
 
 .def{
-    margin-left: 1px; 
-
-
     font-family: var(--font-montserrat);
     font-size: 14px;
     font-weight: 400;
@@ -410,4 +422,8 @@
     background-size: 100%;
     width: 100%;
     padding-bottom: 100px;
+    padding-left: 24px;
+    margin-left: 0px;
+    margin-top: 20px;
+    padding-right: 10px;
 }
