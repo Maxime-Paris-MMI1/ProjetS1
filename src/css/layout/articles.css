@@ -1,0 +1,179 @@
+/* Page articles */
+
+.titre__principal__article{
+    font-family: var(--font-playfairdisplay);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--noir-typo);
+    margin-right: 13px;
+    margin-left: 15px;
+    margin-top: 21px;
+}
+
+.première__image__article{
+    float: left;
+    width: 168px;
+    display: block;
+    margin-left: auto;
+    margin-right: 14px;
+    min-width:30%;
+    min-height:30%;
+    
+}
+
+#premier__text__article{
+    font-family: var(--font-montserrat);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-left: 21px;
+    color: var(--noir-typo);
+}
+
+
+.text__article {
+
+    font-family: var(--font-montserrat);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: var(--noir-typo);
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+.lien__glossaire{
+    text-decoration: none;
+    color: var(--noir-typo);
+
+}
+
+.sous__titre_article{
+    font-family: var(--font-playfairdisplay);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    margin-left: 21px;
+}
+
+.image__article{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width:50%;
+    min-height:50%;
+
+}
+
+.frise__feminisme{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width:60%;
+    min-height:60%;
+    
+
+}
+
+#derniere__image{
+    padding-bottom: 64px;
+}
+
+.vecteur__fin__article{
+    width: 100%;
+    margin-bottom: -31px;
+}
+
+.fin__article{
+    background-color: var(--bleu-clair);
+    padding-bottom: 180px;
+    margin-bottom: -25px;
+    
+}
+
+.titre__fin__article{
+    font-family: var(--font-montserrat);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-left: 11px;
+    color: var(--noir-typo);
+    padding-bottom: 20px;
+    background-image: url(../../../public/icones/soulignement_titre_fin_article.svg); 
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.premier__lien{
+    display: flex;
+    margin-left: 5px;
+    margin-right: auto;
+    min-width:50%;
+    min-height:50%;
+    float: left;
+    margin-top: -20px;
+}
+
+.premiere__suggestion{
+    font-family: var(--font-montserrat);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    text-align: right;
+    color: var(--noir-typo);
+    padding-right: 8px;
+    padding-bottom: 120px;
+}
+
+.second__lien{
+    display: flex;
+    justify-content: end;
+    margin-right: 6px;
+    float: right;
+
+}
+
+.seconde__suggestion{
+    font-family: var(--font-montserrat);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--noir-typo);
+    margin-left: 18px;
+    padding-bottom: 70px;
+
+}
+
+.bouton__autres__projets{
+    text-decoration: none;
+    color: var(--blanc-neige);
+    font-family: var(--font-montserrat);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    display: flex;
+    justify-content: center;
+    background-image: url(../../../public/icones/bouton_autre_projet.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -50px;
+}
