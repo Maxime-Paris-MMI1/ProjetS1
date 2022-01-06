@@ -181,7 +181,7 @@
 /* Page articles */
 
 .titre__principal__article{
-    font-family: var(--font-playfairdisplay-sc);
+    font-family: var(--font-playfairdisplay);
     font-size: 17px;
     font-weight: 700;
     line-height: 23px;
@@ -237,7 +237,7 @@
 }
 
 .sous__titre_article{
-    font-family: var(--font-playfairdisplay-sc);
+    font-family: var(--font-playfairdisplay);
     font-size: 15px;
     font-weight: 700;
     line-height: 20px;
@@ -383,21 +383,20 @@
 
 .liste__glossaire{
     text-decoration: none;
-    font-family: var(--font-playfairdisplay-sc);
+    font-family: var(--font-playfairdisplay);
     font-size: 23px;
     font-weight: 400;
     line-height: 31px;
     letter-spacing: 0.02em;
     text-align: left;
     color: var(--noir-typo);
-    font-variant: small-caps;
     column-count: 2;
     column-gap: 1em;
 
 }
 
 .titre__def{
-    font-family: var(--font-playfairdisplay-sc);
+    font-family: var(--font-playfairdisplay);
     font-size: 23px;
     font-style: normal;
     font-weight: 400;
