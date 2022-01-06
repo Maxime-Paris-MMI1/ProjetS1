@@ -14,7 +14,14 @@
 @import url('components/menu.css');
 
 /*layout*/
-@import url('layout/header.css');
+@import url('layout/a_propos.css');
+@import url('layout/articles.css');
+@import url('layout/autres_projets.css');
+@import url('layout/contact.css');
 @import url('layout/footer.css');
+@import url('layout/galerie.css');
+@import url('layout/glossaire.css');
+@import url('layout/header.css');
+@import url('layout/index.css');
 /*utils*/
 @import url('utils/variables.css');
