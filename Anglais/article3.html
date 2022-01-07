@@ -7,10 +7,10 @@
     <meta name="description" content="Site Féminiscience">
     <link rel="icon" type="Image/svg" sizes="50x50" href="public/icones/fusée_menu.svg">
     <title>Féminiscience</title>
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="../src/css/style.css">
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
-<body cz-shortcut-listen="true" x-data="{ atTop: true }">  <!-- x-data="{ atTop: true }" -->
+<body cz-shortcut-listen="true" x-data="{ atTop: true }">
 
     <header class="header" 
             @scroll.window="atTop = ( window.scrollY > 100 ? false : true )"
@@ -18,10 +18,8 @@
       <div class="logo__menu">
       <div class="Header">
         <a href="/">
-          <img id="Logo_h" src="public/icones/logo.svg" alt="logo du site Féminiscience">
+          <img id="Logo_h" src="../public/icones/logo.svg" alt="logo du site Féminiscience">
         </a>
-        <!--<img id="M_H" src="public/icones/menu.svg" alt="menu">-->
-        <!-- class= "header__menu-btn menu-btn" @click="menuIsOpen = !menuIsOpen" :class="menuIsOpen && 'menu-btn--open'"  -->
       </div>
         <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
                 @click="menuIsOpen = !menuIsOpen" 
@@ -32,22 +30,22 @@
         <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
           <ul class="menu__list list-unstyled">
             <li class="menu__item">
-              <a class="menu__link" href="article1.html">Les avancées du féminisme dans la science</a></li>
+              <a class="menu__link" href="article1.html">Advances in feminism in science</a></li>
             <li class="menu__item">
-              <a class="menu__link" href="article2.html">Claudie Haigneré: astronaute et féministe, une femme à multiples vies</a></li>
+              <a class="menu__link" href="article2.html">Claudie Haigneré: astronaut and feminist, a woman with multiple lives</a></li>
             <li class="menu__item">
-              <a class="menu__link" href="article3.html">Les figures de l’ombre, ces femmes noires talentueuses à la NASA</a></li>
+              <a class="menu__link" href="article3.html">Hidden Figures, These Talented Black Women at NASA</a></li>
             <li class="menu__item">
-              <a class="menu__link" href="glossaire.html">Glossaire</a></li>
+              <a class="menu__link" href="glossaire.html">Glossary</a></li>
             <li class="menu__item">
-              <a class="menu__link" href="galerie.html">Galerie</a></li>
+              <a class="menu__link" href="galerie.html">Gallery</a></li>
             <li class="menu__item">
-              <a class="menu__link" href="#">English</a></li>
-        </ul>
-      </nav>
+              <a class="menu__link" href="../index.html">français</a></li>
+          </ul>
+        </nav>
       </div>
-      <img class="Header_vecteur" id="VEC" src="public/icones/vecteur_fin_header.svg" alt="header">
-    </header>
+    <img class="Header_vecteur" id="VEC" src="../public/icones/vecteur_fin_header.svg" alt="header">
+  </header>
       
     <main>
       <section>
@@ -55,7 +53,7 @@
         <img class="première__image__article" src="public/images/les_figures_de_lombre_image_3.webp" alt="portrait des trois femmes du film les figures de l'ombre">
         <p class="text__article" id="premier__text__article">
         les figures de l’ombre est un film paru en 2016. Il est l’adaptation en film du livre «Hidden Figures» qui montre des femmes
-        calculatrices à la NASA. Le film se passe en pleine <b>guerre froide</b> (dans les années 60) et la conquête spatiale est un enjeu 
+        calculatrices à la NASA. Le film se passe en pleine <a class="lien__glossaire" href="glossaire.html#GF_GLO"><b>guerre froide</b></a>  (dans les années 60) et la conquête spatiale est un enjeu 
         important à cette époque. Ces femmes talentueuses doivent préparer les trajectoires des fusées pour le programme Mercury et 
         la mission Apollo. Les figures de l’ombre montre aussi les discriminations qu’elles subissent à cause de leur couleur de peau 
         et de leur sexe puisque la majorité des ingénieurs dans la NASA sont des hommes. Quelles sont donc les discriminations de l’époque 
@@ -65,9 +63,9 @@
       <section>
         <h3 class="sous__titre_article">Les inégalités frappantes </h3>
         <p class="text__article">
-        le film, on peut découvrir que ces femmes noires subissent des discriminations et des <b>inégalités doubles</b>. Ce sont des femmes,
+        le film, on peut découvrir que ces femmes noires subissent des discriminations et des <a class="lien__glossaire" href="glossaire.html#IN_GLO"><b>inégalités</b></a> Ce sont des femmes,
         dans un domaine scientifique où les hommes sont majoritaires et on peut voir qu’elles sont discriminées en raison de leur couleur de 
-        peau qui est noire en pleine période de <b>ségrégation</b> aux États-Unis.
+        peau qui est noire en pleine période de <a class="lien__glossaire" href="glossaire.html#SE_GLO"><b>ségrégation</b></a>  aux États-Unis.
         </p> 
         <img class="image__article" src="public/images/image_11.webp" alt="Katherine Johnson expliquant ses calculs sur un tableau">
         <p class="text__article">
@@ -115,7 +113,7 @@
       <section>
         <img class="vecteur__fin__article" src="public/icones/vecteur__fin__article.svg" alt="vecteur">
         <div class="fin__article">
-          <h3 class="titre__fin__article"> N’hésiter pas à voir aussi </h3>
+          <h3 class="titre__fin__article"> N’hésitez pas à voir aussi </h3>
           <a class="premier__lien" href="article1.html"><img src="public/icones/planète_premier_article_accueil.svg" alt="planète représentant les 3 personnages principaux du film Les figures de l'ombre"></a> 
           <h3 class="premiere__suggestion">Les avancées du féminisme dans la science</h3>     
           <a class="second__lien" href="article2.html"><img src="public/icones/planète_claudie_haigneré_page_d'accueil.svg" alt="planète représentant un portrait Claudie Haigneré en habit d'astronaute"></a>     
