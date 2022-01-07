@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="src/css/style.css">
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
-<body cz-shortcut-listen="true" x-data="{ atTop: true }">  <!-- x-data="{ atTop: true }" -->
+<body cz-shortcut-listen="true" x-data="{ atTop: true }">
 
     <header class="header" 
             @scroll.window="atTop = ( window.scrollY > 100 ? false : true )"
@@ -20,8 +20,7 @@
         <a href="/">
           <img id="Logo_h" src="public/icones/logo.svg" alt="logo du site Féminiscience">
         </a>
-        <!--<img id="M_H" src="public/icones/menu.svg" alt="menu">-->
-        <!-- class= "header__menu-btn menu-btn" @click="menuIsOpen = !menuIsOpen" :class="menuIsOpen && 'menu-btn--open'"  -->
+        
       </div>
         <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
                 @click="menuIsOpen = !menuIsOpen" 
