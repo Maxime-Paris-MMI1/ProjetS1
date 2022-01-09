@@ -70,6 +70,7 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   margin-left: 35vw;
   padding: 0px;
   margin-bottom: -50px;
+  margin-top: -30px;
 }
 
 /* Bouton menu */
@@ -123,14 +124,18 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
 .menu-btn--open .menu-btn__bar::after {
   transform: rotate(135deg);
   background: var(--noir-typo);
-  height: 2px;
+  height: 1.5px;
 
 }
 .menu-btn--open .menu-btn__bar {
-  width: 60px;
-  margin-left: 40px;
-  margin-top: -20px;
+  width: 46px;
+  margin-left: 30px;
+  margin-top: 20px;
 
+}
+
+.menu-btn--open .middle_bar{
+  
 }
 
 
@@ -138,6 +143,9 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
 .menu-btn--open .menu-btn__bar::before,
 .menu-btn--open .menu-btn__bar::after {
   transform: rotate(90deg);
+  top: 0px;
+  left: -30px;
+  width: 46px;
 
 }
 
