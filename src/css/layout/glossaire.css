@@ -36,6 +36,29 @@
     padding-right: 33px;
 }
 
+.en_se{
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.en_cw{
+    margin-left: 110px;
+    padding-bottom: 10px;
+}
+
+.en_fs{
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.en_s{
+    padding-left: 77px;
+}
+
+.en-di{
+    margin-left: 115px;
+    padding-bottom: 10px;
+}
 .gauche{
     text-align: left;
     background-image: url(../../../public/icones/tiret__glossaire.svg);
