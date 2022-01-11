@@ -187,3 +187,7 @@
     background-position: center;
     margin-bottom: -50px;
 }
+
+.bug{
+    visibility: hidden;
+}
