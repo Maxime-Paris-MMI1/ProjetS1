@@ -12,42 +12,46 @@
 </head>
 <body cz-shortcut-listen="true" x-data="{ atTop: true }">
 
-    <header class="header" 
-            @scroll.window="atTop = ( window.scrollY > 100 ? false : true )"
-            :class="{ 'header--atTop' : !atTop }">
-      <div class="logo__menu">
-      <div class="Header">
-        <a href="/">
-          <img id="Logo_h" src="public/icones/logo.svg" alt="logo du site Féminiscience">
-        </a>
+  <header class="header" 
+  @scroll.window="atTop = ( window.scrollY > 100 ? false : true )"
+  :class="{ 'header--atTop' : !atTop }">
+<div class="logo__menu">
+<div class="Header">
+<a href="/">
+<img id="Logo_h" src="public/icones/logo.svg" alt="logo du site Féminiscience">
+</a>
+</div>
+<!-- Bouton menu hamburger-->
+<button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+      @click="menuIsOpen = !menuIsOpen" 
+      :class="menuIsOpen && 'menu-btn--open'">
+  <span class="menu-btn__bar middle_bar"></span>
+</button>
+<!-- Fin bouton menu hamburger-->
 
-      </div>
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
-                @click="menuIsOpen = !menuIsOpen" 
-                :class="menuIsOpen && 'menu-btn--open'">
-            <span class="menu-btn__bar"></span>
-        </button>
-
-        <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
-          <ul class="menu__list list-unstyled">
-            <a href="/"><img class="fusée__menu" src="public/icones/fusée_menu.svg" alt="fusée"></a> 
-            <li class="menu__item">
-              <a class="menu__link" href="article1.html">Les avancées du féminisme dans la science</a></li>
-            <li class="menu__item">
-              <a class="menu__link" href="article2.html">Claudie Haigneré: astronaute et féministe, une femme à multiples vies</a></li>
-            <li class="menu__item">
-              <a class="menu__link" href="article3.html">Les figures de l’ombre, ces femmes noires talentueuses à la NASA</a></li>
-            <li class="menu__item">
-              <a class="menu__link" href="glossaire.html">Glossaire</a></li>
-            <li class="menu__item">
-              <a class="menu__link" href="galerie.html">Galerie</a></li>
-            <li class="menu__item">
-              <a class="menu__link supp_bar" href="Anglais/index.html">English</a></li>
-          </ul>
-      </nav>
-      </div>
-      <img class="Header_vecteur" id="VEC" src="public/icones/vecteur_fin_header.svg" alt="header">
-    </header>
+<!-- Liste menu -->
+<nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+<ul class="menu__list list-unstyled">
+  <a href="/"><img class="fusée__menu" src="public/icones/fusée_menu.svg" alt="fusée"></a> 
+  <li class="menu__item">
+    <a class="menu__link" href="article1.html">Les avancées du féminisme dans la science</a></li>
+  <li class="menu__item">
+    <a class="menu__link" href="article2.html">Claudie Haigneré: astronaute et féministe, une femme à multiples vies</a></li>
+  <li class="menu__item">
+    <a class="menu__link" href="article3.html">Les figures de l’ombre, ces femmes noires talentueuses à la NASA</a></li>
+  <li class="menu__item">
+    <a class="menu__link" href="glossaire.html">Glossaire</a></li>
+  <li class="menu__item">
+    <a class="menu__link" href="galerie.html">Galerie</a></li>
+  <li class="menu__item">
+    <a class="menu__link supp_bar" href="Anglais/index.html">English</a></li>
+</ul>
+</nav>
+<!-- Fin liste menu -->
+</div>
+<!-- Vecteur arrondie de la fin de mon header-->
+<img class="Header_vecteur" id="VEC" src="public/icones/vecteur_fin_header.svg" alt="header">
+</header>
       
     <main>
       <section>
@@ -124,33 +128,37 @@
         </div>
               
       </section>
-    </main>
       <img id="arc" src="public/icones/vecteur_fin_footer.svg" alt="vecteur">
-      <footer class="Footer">
-        <img class="Logo_MMI" src="public/icones/logo_mmi.svg" alt="logo du département métier du multimédia et de l'internet situé à Montbéliard">
-        <div class="block1_footer">
-          <p class="block1_footer__text">
-            Maxime Paris MMI1 A2
-          </p>
-          <a class="block1_footer__mail" href="mailto:maxime.paris02@edu.univ-fcomte.fr"><img src="public/icones/mailto_footer.svg" alt="bouton mail"></a>
-        </div>
-        <div class="block2_footer">
-          <p class="block2_footer__text">
-            Besoin d’éventuels renseignements ?
-          </p>
-          <a class="block2_footer__bouton" href="contact.html">Contactez-nous</a>
-        </div>
-        <div class="block3_footer">
-          <p class="block3_footer__text">
-            Vous voulez en savoir plus ?
-          </p> 
-          <a class="block3_footer__bouton"  href="a_propos.html">À propos</a>
-        </div>
-        <p class="text_fin__footer" >
-          Projet réalisé dans le cadre d’un exercice pédagogique au département <a class="text_fin__footer__lien" href="http://mmimontbeliard.com/">MMI de
-          Montbéliard</a> 
+    </main>
+
+
+    <!--Footer-->
+    <footer class="Footer">
+      <img class="Logo_MMI" src="public/icones/logo_mmi.svg" alt="logo du département métier du multimédia et de l'internet situé à Montbéliard">
+      <div class="block1_footer">
+        <p class="block1_footer__text">
+          Maxime Paris MMI1 A2
         </p>
-      </footer>
+        <a class="block1_footer__mail" href="mailto:maxime.paris02@edu.univ-fcomte.fr"><img src="public/icones/mailto_footer.svg" alt="bouton mail"></a>
+      </div>
+      <div class="block2_footer">
+        <p class="block2_footer__text">
+          Besoin d’éventuels renseignements ?
+        </p>
+        <a class="block2_footer__bouton" href="contact.html">Contactez-nous</a>
+      </div>
+      <div class="block3_footer">
+        <p class="block3_footer__text">
+          Vous voulez en savoir plus ?
+        </p> 
+        <a class="block3_footer__bouton"  href="a_propos.html">À propos</a>
+      </div>
+      <p class="text_fin__footer" >
+        Projet réalisé dans le cadre d’un exercice pédagogique au département <a class="text_fin__footer__lien" href="http://mmimontbeliard.com/">MMI de
+        Montbéliard</a> 
+      </p>
+    </footer>
+    <!--Fin footer-->
   
   </body>
 </html>
